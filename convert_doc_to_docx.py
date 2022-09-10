@@ -17,7 +17,7 @@ def save_as_docx(path):
     )
     doc.Close(False)
 
-paths = glob(r'E:\Отдел корпоративной защиты\Персонал\Персонал\Я\**\*.doc', recursive=True)
+paths = glob(r'E:\Персонал\**\*.doc', recursive=True)
 
 for path in paths:
     save_as_docx(path)
